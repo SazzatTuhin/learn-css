@@ -103,3 +103,7 @@ a{
 a:hover{
     color: green;
 }
+
+.lorem_p{
+    color: rgb(12, 158, 109);
+}
