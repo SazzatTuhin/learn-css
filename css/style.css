@@ -1,105 +1,132 @@
-body{
-    background: ur(/img/backgroundimage.jpg);
-    background-size: 1300px 750px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+/* body {
+  background: ur(/img/backgroundimage.jpg);
+  background-size: 1300px 750px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+} */
 
-
+h2 {
+  display: inline;
+  color: white;
+  border: dotted 2px yellow;
 }
-
-h2{
-    display: inline;
-    color: white;
-    border: dotted 2px yellow;
-}
-.header{
-    
+.header {
 }
 .header a {
-    border: 3px solid black;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    margin-left: 50px;
-    margin-top: 40px;
-    padding: 15px;
-
-    
+  border: 3px solid black;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 15px;
 }
 
-.navbar{
-    width: 500px;
-    border: 15px solid green;
-    background-color: lightgray;
-    padding: 15px;
-    margin: auto;
-    font-family: 'Lobster', cursive,sans-serif;
-   
-
+.navbar {
+  width: 500px;
+  border: 15px solid green;
+  background-color: lightgray;
+  padding: 15px;
+  margin: auto;
+  font-family: "Lobster", cursive, sans-serif;
 }
-.navbar P{
-    text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 2px;
-
-
-
+.navbar P {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 2px;
 }
 
-#innderlink{
-    display: block;
-    width: 150px;
-    margin: auto;
-    padding: 25px;
-    background-color: aqua; 
-    border-radius: 10px 10px;
-    text-decoration: none;
+#innderlink {
+  display: block;
+  width: 150px;
+  margin: auto;
+  padding: 25px;
+  background-color: aqua;
+  border-radius: 10px 10px;
+  text-decoration: none;
+}
+#innderlink:link {
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+}
+#innderlink:visited {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+
+#innderlink:hover {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+}
+#innderlink:checked {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: green;
+}
+
+.listclass {
+  width: 30%;
+  margin: auto;
+  background-color: royalblue;
+  padding: 10%;
+  margin-top: 100px;
+}
+
+.listclass ol li {
+  color: red;
+  font-size: 30px;
+  padding: 10px;
+  background-color: aqua;
+}
+
+.mytable {
+  padding: 200px;
+
+  background-color: brown;
+  margin-top: 20px;
+}
+
+.tablecontainer {
+  width: 50%;
+  margin: auto;
+  background-color: cyan;
+  padding: 50px;
+}
+.tablecontainer table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.tablecontainer table th {
+  border: 2px solid black;
+  padding: 15px;
+  background-color: green;
+  color: white;
+}
+.tablecontainer table td {
+  border: 2px solid black;
+  padding: 15px;
+  color: black;
+  background-color: white;
+
+  
 
 
 }
-#innderlink:link{
-    
-    background-color:yellow; 
-    color:black;
-    text-decoration: none;
-    
 
-}
-#innderlink:visited{
-    
-    background-color:red; 
-    color: white;
-    text-decoration: none;
-    
-
-}
-
-
-
-#innderlink:hover{
-    
-    background-color: green; 
-    color: white;
-    text-decoration: none;
-
-
-}
-#innderlink:checked{
-    
-    background-color: green; 
-    color: white;
-    text-decoration: none;
-    
-
-}
-
-
-a{
-    text-decoration: none;
-    text-transform:uppercase;
-}
-
+<<<<<<< HEAD
 a:hover{
     color: green;
 }
@@ -107,3 +134,11 @@ a:hover{
 .lorem_p{
     color: rgb(12, 158, 109);
 }
+=======
+
+.mydisplay {
+    padding: 25px;
+    border: 3px solid blue;
+  }
+  
+>>>>>>> 6e9bfdd5b05f06b4ac333b424d8bd69410d84b9a
